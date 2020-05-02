@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>home-page</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .top-section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url(bg.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        color: white;
+        height: 66px;
+    }
+    .logo-span{
+        color: red;
+        padding-top: 6px;
+        font-size: 39px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    .logo h2{
+        padding-top: 6px;
+        font-size: 39px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    .links ul{
+        display: flex;
+        height: 66px;
+    }
+    .links ul li{
+        list-style: none;
+    }
+    .tag{
+        display: block;
+        text-decoration: none;
+        height: 66px;
+        line-height: 23px;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .tag:hover{
+        background-color: #272626;
+    }
+    .description-box{
+        position: absolute;
+        top: 168px;
+        left: 57px;
+        height: 250px;
+        width: 600px;
+        color: white;
+    }
+    .description-box h3{
+        font-size: 23px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    .description-box p{
+        font-size: 21px;
+        letter-spacing: 3px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .youtube-btn{
+        color: #dc1616;
+        margin-top: 20px;
+        height: 50px;
+        width: 50px;
+    }
+    .youtube-btn:hover{
+        color:#0d6de4;
+    }
+</style>
+
+<body>
+    <div class="top-section">
+
+        <header>
+
+            <nav>
+                <div class="logo">
+                    <h2>web <span class="logo-span">p</span>rozY</h2>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="tag" href="#">Home</a> </li>
+                        <li><a class="tag" href="#">Contact</a> </li>
+                        <li><a class="tag" href="#">About</a> </li>
+                        <li><a class="tag" href="#">Services</a> </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+
+        </header>
+        <div class="description-box">
+
+            <h3>IRON MAN-3</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquid suscipit, officiis debitis omnis
+                numquam quo illo architecto vitae laborum, cum, temporibus perferendis illum recusandae perspiciatis
+                voluptatibus error quis! Ipsum impedit dicta doloribus quisquam a.</P>
+            <span><a href="https://www.youtube.com/channel/UCh56CLUOnGJlq-QmYXN36EA?view_as=subscriber"><i class="fas fa-play-circle fa-2x youtube-btn"></i> </a>Watch Trailer</span>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
